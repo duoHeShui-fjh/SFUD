@@ -43,7 +43,7 @@ enum {
 
 #define SFUD_FLASH_DEVICE_TABLE                                                \
 {                                                                              \
-    [SFUD_XXXX_DEVICE_INDEX] = {.name = "W25Q128", .spi.name = "SPI1"},           \
+    [SFUD_DEVICE_INDEX_0] = {.name = "W25Q128", .spi.name = "SPI1"},           \
 }
 
 // #define SFUD_USING_QSPI
